@@ -5,7 +5,7 @@ MyVector<T>::MyVector()
 {
     arr_size = 0;
     arr_capacity = 10;
-    arr = new T(10);
+    arr = new T[10];
 }
 
 template <typename T>
