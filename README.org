@@ -30,7 +30,7 @@ You must:
 
 
 * Notes
-
+operator[] throws out_of_range exception when out of range
 
 
 * Lab instructions
