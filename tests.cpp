@@ -50,6 +50,10 @@ TEST_CASE("size, capacity, empty, clear")
     vec.push_back("10");
     CHECK(vec.size() == 11);
     CHECK(vec.capacity() == 20);
+    vec.pop_back(5);
+    CHECK(vec.size() == 6);
+    CHECK(vec.capacity() == 20);
+
     vec.clear();
     CHECK(vec.empty() == true);
     CHECK(vec.capacity() == 20);
