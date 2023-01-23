@@ -46,6 +46,12 @@ void MyVector<T>::clear()
 {
     arr_size = 0;
 }
+template <typename T>
+
+bool MyVector<T>::empty()
+{
+    return arr_size == 0;
+}
 
 template <typename T>
 T &MyVector<T>::operator[](int index)

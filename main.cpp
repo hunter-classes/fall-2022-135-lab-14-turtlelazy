@@ -27,7 +27,7 @@ int main(){
     std::cout << "Element at index 5 is " <<vec[5] << "\n";
 
     vec.clear();
-    std::cout << "After clear(), the size is " << vec.size() << "\n";
+    std::cout << "After clear(), the size is " << vec.size() <<  " and the vector is empty: " << vec.empty() << "\n";
 
     return 0;
 }
